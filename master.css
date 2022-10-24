@@ -1,0 +1,79 @@
+.block1{
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.a1{
+  background: orange;
+  color: white;
+}
+
+.sp1 {
+  display: block;
+  background: red;
+  height: 100px;
+  width: 300px;
+}
+.sp2{
+  background: blue;
+  padding: 100px;
+  margin: 50px;
+}
+
+.a2{
+  background: #123456;
+  color: white;
+}
+
+div, .sp3{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+div{
+  display: inline-block;
+  background: blue;
+}
+
+.sp3{
+  display: block;
+  background: green;
+}
+
+div.button1{
+  background: none;
+}
+
+.button1 a{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+  padding: 1em 2em;
+  width: 300px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #add8e6;
+  border-radius: 50vh;
+}
+
+.button1 a::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  transform: rotate(45deg);
+}
+
+.button1 a:hover {
+  text-decoration: none;
+  background-color: #000000;
+}
